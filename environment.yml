@@ -1,0 +1,16 @@
+name: a2s
+channels:
+  - pytorch
+dependencies:
+  - python=3.7
+  - numpy
+  - scikit-learn
+  - pandas
+  - pytorch
+  - tqdm
+  - cython
+  - cffi
+  - pip:
+    - python-levenshtein
+    - librosa
+    - madmom
